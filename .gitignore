@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+*.parquet
+*.csv
+*.log
+*.zip
+.idea/
+.vscode/
+
+# dbt
+.dbt/
+logs/
+
+# data
+/data/raw/*
+/data/processed/*

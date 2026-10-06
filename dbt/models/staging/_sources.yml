@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: retail_demand
+    tables:
+      - name: sales
+      - name: calendar
+      - name: sell_prices
